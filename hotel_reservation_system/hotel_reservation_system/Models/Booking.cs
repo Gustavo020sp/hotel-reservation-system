@@ -30,6 +30,5 @@ namespace hotel_reservation_system.Models
                 return true;
             }
         }
-
     }
 }
