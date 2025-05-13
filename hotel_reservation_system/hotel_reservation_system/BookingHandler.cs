@@ -49,17 +49,17 @@ namespace hotel_reservation_system
                 case 1:
                     Booking b1 = new Booking(standard, days);
                     b1.Book();
-                    Console.Write($"Your room is reserved for {days} days, Total price will be {standard.Price}");
+                    Console.WriteLine(b1.ToString());
                     break;
                 case 2:
                     Booking b2 = new Booking(vip, days);
                     b2.Book();
-                    Console.Write($"Your room is reserved for {days} days, Total price will be {vip.Price}");
+                    Console.WriteLine(b2.ToString());
                     break;
                 case 3:
                     Booking b3 = new Booking(premium, days);
                     b3.Book();
-                    Console.Write($"Your room is reserved for {days} days, Total price will be {premium.Price}");
+                    Console.WriteLine(b3.ToString());
                     break;
                 default:
                     Console.WriteLine("Please enter a valid room number.");

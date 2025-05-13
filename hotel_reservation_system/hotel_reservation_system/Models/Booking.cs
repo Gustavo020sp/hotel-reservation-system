@@ -30,5 +30,11 @@ namespace hotel_reservation_system.Models
                 return true;
             }
         }
+
+        public override string ToString() 
+        {
+            return $"Your room is reserved for {Days} days, Total price will be ${RoomBooked.Price.ToString("F2")}";
+        }
+
     }
 }

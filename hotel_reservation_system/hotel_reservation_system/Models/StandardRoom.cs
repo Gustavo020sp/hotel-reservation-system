@@ -10,7 +10,7 @@ namespace hotel_reservation_system.Models
     {
         public override double CalculatePrice(int days)
         {
-            Price = 100 * days;
+            Price = 100.80 * days;
             return Price;
         }
 
