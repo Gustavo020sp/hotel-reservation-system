@@ -8,9 +8,8 @@ namespace hotel_reservation_system.Interfaces
 {
     internal interface IBooking
     {
-
         //methods
-        public int CalculatePrice(int days);
-        public bool IsAvailable();
+        public double CalculatePrice(int days);
+        public bool VerifyAvailability();
     }
 }
