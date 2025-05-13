@@ -10,6 +10,6 @@ namespace hotel_reservation_system.Interfaces
     {
         //methods
         public double CalculatePrice(int days);
-        public bool VerifyAvailability();
+        public bool VerifyAvailability(out string message);
     }
 }

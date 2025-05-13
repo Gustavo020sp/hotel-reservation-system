@@ -26,8 +26,10 @@ namespace hotel_reservation_system.Models
             return Price;
         }
 
-        public bool VerifyAvailability()
+        public bool VerifyAvailability(out string message)
         {
+            message = "This room is available";
+            Console.WriteLine(message);
             return true; //mostrar e/ou retornar "disponivel"
         }
     }
